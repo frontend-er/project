@@ -1,7 +1,11 @@
 /* Imports for styles files */
 @import "_defoult";
 @import "_header";
-
+@import "_footer";
 /* Main styles stars*/
+
+body {
+    display: flex;
+}
 
 /* Main styles ends*/

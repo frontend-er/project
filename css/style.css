@@ -10,6 +10,8 @@
 *,
 *:before,
 *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-b ox;
   box-sizing: border-box;
 }
 
@@ -89,5 +91,15 @@ h6 {
 /*---Обнуление---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* Header styles */
 /*Header styles end*/
+/* Footer strats */
+.q {
+  float: left;
+}
+
+/* Footer ends */
 /* Main styles stars*/
+body {
+  display: flex;
+}
+
 /* Main styles ends*/
