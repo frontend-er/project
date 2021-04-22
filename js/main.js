@@ -13,7 +13,7 @@ const personalMovieDB = {
 
 };
 
-
+/*
 for (let i = 0; i < 2; i++) {
 
 
@@ -33,6 +33,24 @@ for (let i = 0; i < 2; i++) {
 
 }
 
+*/
+
+function showDB(hidden) {
+   if (!hidden) {
+      console.log(personalMovieDB);
+   }
+}
+
+showDB();
 
 
 console.log(personalMovieDB);
+
+
+function wrideYourGeners() {
+   for (let i = 1; i <= 3; i++) {
+      personalMovieDB.geners[i - 1] = prompt(`Введите ваш любимый жанр ${i}`, '');
+   }
+}
+
+wrideYourGeners();
